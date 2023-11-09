@@ -1,48 +1,33 @@
-# # 정수 찾기
-# # 정수 리스트 num_list와 찾으려는 정수 n이 주어질 때, num_list안에 n이 있으면 1을 없으면 0을 return하도록 solution 함수를 완성해주세요.
-# def solution(num_list, n):
-#     for i in num_list:
-#         if i == n:
-#             answer = 1
-#             break
-#         else:
-#             answer = 0
-#     return answer
+# 문자열 출력하기
+# 문자열 str이 주어질 때, str을 출력하는 코드를 작성해 보세요.
+str = input()
+print(str)
 
 
-
-# # flag에 따라 다른 값 반환하기
-# # 두 정수 a, b와 boolean 변수 flag가 매개변수로 주어질 때, flag가 true면 a + b를 false면 a - b를 return 하는 solution 함수를 작성해 주세요.
-#
-# def solution(a, b, flag):
-#     if flag:
-#         answer = a + b
-#     else:
-#         answer = a-b
-#     return answer
+# a와 b 출력하기
+# 정수 a와 b가 주어집니다. 각 수를 입력받아 입출력 예와 같은 형식으로 출력하는 코드를 작성해 보세요.
+a, b = map(int, input().strip().split(' '))
+print('a = {}'.format(a))
+print('b = {}'.format(b))
 
 
-
-# # 이어 붙인 수
-# # 정수가 담긴 리스트 num_list가 주어집니다. num_list의 홀수만 순서대로 이어 붙인 수와 짝수만 순서대로 이어 붙인 수의 합을 return하도록 solution 함수를 완성해주세요.
-# def solution(num_list):
-#     odd=''
-#     even=''
-#     for i in num_list:
-#         if i % 2 == 1:
-#             i = str(i)
-#             odd += i
-#         else:
-#             i = str(i)
-#             even += i
-#     return int(odd)+int(even)
+# 문자열 반복해서 출력하기
+# 문자열 str과 정수 n이 주어집니다.
+# str이 n번 반복된 문자열을 만들어 출력하는 코드를 작성해 보세요.
+a, b = input().strip().split(' ')
+b = int(b)
+print(a*b)
 
 
+# 대소문자 바꿔서 출력하기
+# 영어 알파벳으로 이루어진 문자열 str이 주어집니다. 각 알파벳을 대문자는 소문자로 소문자는 대문자로 변환해서 출력하는 코드를 작성해 보세요.
+str = input()
+print(str.swapcase())
 
 
-
-
-
-
+# 특수문자 출력하기
+# !@#$%^&*(\'"<>?:;
+# 다음과 같이 출력하도록 코드를 작성해 주세요.
+print('!@#$%^&*(\\\'"<>?:;')
 
 
