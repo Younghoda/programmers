@@ -4,3 +4,5 @@ def solution(my_string, letter):
         if i != letter:
             answer += i
     return answer
+
+# replace함수를 사용해도 가능
